@@ -15,7 +15,7 @@ import com.zjh.otp.databinding.LayoutOtpSelectItemBinding;
 
 import java.util.List;
 
-import cn.authing.otp.TOTPEntity;
+import cn.zjh.otp.TOTPEntity;
 
 public class OtpSelectAdapter extends RecyclerView.Adapter<OtpSelectAdapter.AccountHolder> {
 

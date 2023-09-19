@@ -9,7 +9,7 @@ import com.zjh.otp.ui.OtpExportTipActivity;
 import com.zjh.otp.ui.OtpHistoryActivity;
 import com.zjh.otp.ui.OtpImportTipActivity;
 
-import cn.authing.otp.ui.InputKeyActivity;
+import cn.zjh.otp.ui.InputKeyActivity;
 
 public class PageRouter {
 

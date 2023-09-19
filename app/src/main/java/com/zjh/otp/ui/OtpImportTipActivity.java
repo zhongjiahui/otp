@@ -24,9 +24,9 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.authing.otp.TOTP;
-import cn.authing.otp.TOTPEntity;
-import cn.authing.otp.util.ToastUtils;
+import cn.zjh.otp.TOTP;
+import cn.zjh.otp.TOTPEntity;
+import cn.zjh.otp.util.ToastUtils;
 
 public class OtpImportTipActivity extends BaseActivity {
 
@@ -58,7 +58,7 @@ public class OtpImportTipActivity extends BaseActivity {
                         CommonConstant.REQUEST_CODE_QR, Constant.PAGE_ADD_ACCOUNT, false, getString(R.string.scan_add_otp_tip));
             } else {
                 // 被禁止授权
-                ToastUtils.show(this, getString(cn.authing.scanner.R.string.camera_permission_tips));
+                ToastUtils.show(this, getString(cn.zjh.scanner.R.string.camera_permission_tips));
             }
         }
     }

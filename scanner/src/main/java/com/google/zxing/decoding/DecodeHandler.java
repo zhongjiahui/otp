@@ -34,7 +34,7 @@ import com.google.zxing.common.HybridBinarizer;
 
 import java.util.Hashtable;
 
-import cn.authing.scanner.R;
+import cn.zjh.scanner.R;
 
 
 final class DecodeHandler extends Handler {

@@ -9,7 +9,7 @@ import androidx.room.RoomDatabase;
 @Database(entities = {OtpHistoryEntity.class}, version = 1)
 public abstract class OtpDataBase extends RoomDatabase {
 
-    private static final String DATABASE_NAME = "authing_mobile";
+    private static final String DATABASE_NAME = "otp_data";
 
     private static OtpDataBase databaseInstance;
 

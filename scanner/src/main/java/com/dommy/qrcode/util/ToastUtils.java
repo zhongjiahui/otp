@@ -10,7 +10,7 @@ import android.widget.Toast;
 import java.util.Timer;
 import java.util.TimerTask;
 
-import cn.authing.scanner.R;
+import cn.zjh.scanner.R;
 
 public class ToastUtils {
 

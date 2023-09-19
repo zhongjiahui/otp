@@ -20,8 +20,8 @@ import com.zjh.otp.util.PageRouter;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.authing.otp.TOTP;
-import cn.authing.otp.TOTPEntity;
+import cn.zjh.otp.TOTP;
+import cn.zjh.otp.TOTPEntity;
 
 public class OtpExportSelectActivity extends BaseActivity implements OtpSelectAdapter.OnItemCheckListener {
 

@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.dommy.qrcode.util.Constant;
 
-import cn.authing.scanner.R;
+import cn.zjh.scanner.R;
 
 public class ScanDetailActivity extends AppCompatActivity {
 

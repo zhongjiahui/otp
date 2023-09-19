@@ -60,9 +60,8 @@
 
         </LinearLayout>
 
-
         <androidx.fragment.app.FragmentContainerView
-            android:name="cn.authing.otp.ui.AuthenticatorFragment"
+            android:name="cn.zjh.otp.ui.AuthenticatorFragment"
             android:id="@+id/authenticator"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

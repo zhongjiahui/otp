@@ -38,7 +38,7 @@ import com.google.zxing.camera.CameraManager;
 import java.util.Collection;
 import java.util.HashSet;
 
-import cn.authing.scanner.R;
+import cn.zjh.scanner.R;
 
 
 /**

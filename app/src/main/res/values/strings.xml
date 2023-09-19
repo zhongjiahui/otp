@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">OTP 令牌</string>
+    <string name="title_authenticator">OTP</string>
+    <string name="scan_login">Scan QR Code</string>
+    <string name="input_account">Enter Key Manually</string>
+    <string name="edit_account">Edit account</string>
+    <string name="operation_history">Operation history</string>
+    <string name="import_account">Import account</string>
+    <string name="import_account_tip">Select the account you want to transfer from the "OTP token" application on the old device, and scan the relevant QR code to complete the account import.</string>
+    <string name="scan_add_otp_tip">Select the account you want to transfer from the OTP Token application on the old device and scan the QR code to import the account.</string>
+    <string name="import_account_error">Please confirm your QR code</string>
+    <string name="import_account_success">%s accounts were successfully imported. Procedure</string>
+    <string name="import_account_success2">%1$s accounts have been successfully imported and %2$s already exist</string>
+    <string name="export_account">Export account</string>
+    <string name="export_account_tip">Move your account to another device. Multiple accounts can be exported at a time.</string>
+    <string name="export">Export</string>
+    <string name="go_on">Go on</string>
+    <string name="all_check">All</string>
+    <string name="has_check">Select：%1$s / %2$s</string>
+    <string name="export_account_qr_code_tip">Download the "OTP Token" app on your new device and use it to scan the QR code below.</string>
+    <string name="done">Done</string>
+    <string name="no_record_yet">No record yet!</string>
+    <string name="import_account_history">%1$s %2$s accounts were imported</string>
+    <string name="delete_account_history">%s were deleted</string>
+    <string name="cancel">Cancel</string>
+
+</resources>

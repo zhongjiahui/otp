@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/common_padding_24"
+        android:paddingEnd="@dimen/common_padding_24">
+
+        <include
+            android:id="@+id/otp_history_actionbar"
+            layout="@layout/layout_actionbar" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/otp_history_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipToPadding="false"
+            android:paddingTop="@dimen/common_padding_16" />
+
+        <TextView
+            android:id="@+id/otp_history_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/no_record_yet"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/common_text_size_16"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+</layout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#1296db</color>
+    <color name="purple_700">#1296db</color>
+    <color name="teal_200">#1296db</color>
+    <color name="teal_700">#1296db</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#F2F3F5</color>
+
+    <color name="common_actionbar_title">#1D2129</color>
+    <color name="text_black">#1D2129</color>
+    <color name="text_gray">#86909C</color>
+    <color name="text_color_4E5969">#4E5969</color>
+    <color name="text_color_215AE5">#1296db</color>
+
+
+    <color name="icon_color">#4E5969</color>
+    <color name="app_item_white">#FFFFFFFF</color>
+    <color name="pop_bg">#4D293350</color>
+
+</resources>

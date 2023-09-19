@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/otp_white"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:paddingStart="0dp"
+            android:paddingEnd="16dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_otp_back" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/input_account"
+            android:textColor="@color/title_color"
+            android:textSize="16sp"
+            android:textStyle="bold"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/account_name"
+        android:textColor="@color/title_color"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_account"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background_edit_text"
+        android:hint="@string/input_account_name"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="@color/title_color"
+        android:textColorHint="#86909C"
+        android:textSize="16sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/account_name_sample"
+        android:textColor="#86909C"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/key"
+        android:textColor="@color/title_color"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edit_key"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/background_edit_text"
+        android:hint="@string/input_key"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:textColor="@color/title_color"
+        android:textColorHint="#86909C"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/key_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/key_tip"
+        android:textColor="#86909C"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/key_error_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        android:textColor="#E8353E"
+        android:textSize="12sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:minHeight="60dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/btn_add_account"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/background_button"
+        android:gravity="center"
+        android:textAllCaps="false"
+        android:text="@string/add"
+        android:textSize="16sp"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

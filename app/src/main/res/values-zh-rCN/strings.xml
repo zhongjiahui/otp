@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">OTP 令牌</string>
+    <string name="title_authenticator">OTP</string>
+    <string name="scan_login">扫描二维码</string>
+    <string name="input_account">手动输入账号</string>
+    <string name="edit_account">编辑账号</string>
+    <string name="operation_history">操作历史</string>
+    <string name="import_account">导入账号</string>
+    <string name="import_account_tip">将需要在旧设备上的「OTP 令牌」应用中选择想要转移的账号，并扫描相关二维码完成账号导入。</string>
+    <string name="scan_add_otp_tip">在旧设备上的「OTP 令牌」应用中选择想要转移的账号，并扫描二维码完成账号导入。</string>
+    <string name="import_account_error">请确认您的二维码</string>
+    <string name="import_account_success">成功导入 %s 个账号</string>
+    <string name="import_account_success2">成功导入 %1$s 个账号，%2$s 个已存在</string>
+    <string name="export_account">导出账号</string>
+    <string name="export_account_tip">将你的账号移动到另一部设备。支持一次导出多个账户。</string>
+    <string name="export">导出</string>
+    <string name="go_on">继续</string>
+    <string name="all_check">全选</string>
+    <string name="has_check">已选：%1$s / %2$s</string>
+    <string name="export_account_qr_code_tip">在新设备上下载「OTP 令牌」应用，然后使用该应用扫描下方二维码。</string>
+    <string name="done">已完成</string>
+    <string name="no_record_yet">暂无记录！</string>
+    <string name="import_account_history">导入了 %1$s %2$s 个账号</string>
+    <string name="delete_account_history">删除了 %s</string>
+    <string name="cancel">取消</string>
+
+</resources>

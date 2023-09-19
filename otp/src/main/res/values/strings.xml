@@ -1,0 +1,36 @@
+<resources>
+
+    <string name="no_data">Please add an organization or application account</string>
+    <string name="scan_the_qr">Scan QR code</string>
+    <string name="manual_key_input">Enter Key Manually</string>
+    <string name="token_detail">Details of the token</string>
+    <string name="save">Save</string>
+    <string name="account">Account</string>
+    <string name="application">Application</string>
+    <string name="digits">Digits</string>
+    <string name="interval">Interval</string>
+    <string name="algorithm">Algorithm</string>
+    <string name="issuer">Issuer</string>
+    <string name="sure_delete">Remove Account?</string>
+    <string name="sure_delete_message">After removing your account %s, you will not be able to use this device to verify your identity.</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_account">Remove Account</string>
+    <string name="input_account">Enter the account</string>
+    <string name="account_name">Account name</string>
+    <string name="input_account_name">Please enter the account name</string>
+    <string name="account_name_sample">Example: My organization account number</string>
+    <string name="key">Key</string>
+    <string name="input_key">Please enter the key</string>
+    <string name="key_tip">The key is provided by your account provider, not your password.</string>
+    <string name="key_invalid">Invalid secret</string>
+    <string name="key_invalid_length">Incorrect secret length</string>
+    <string name="add">Add</string>
+    <string name="qr_exception">The QR code is invalid.</string>
+    <string name="the_account_is_updated">The account %s key is updated successfully!</string>
+    <string name="the_account_is_bound">The account %s has been bound, Do not bind it again!</string>
+    <string name="copy_success">Copy success</string>
+    <string name="account_ame_cannot_be_empty">The account name cannot be empty</string>
+    <string name="application_name_cannot_be_empty">The application name cannot be empty</string>
+    <string name="resend_password_reset_email">Resend password reset email</string>
+
+</resources>

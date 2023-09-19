@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="common_margin_24">24dp</dimen>
+    <dimen name="common_margin_16">16dp</dimen>
+    <dimen name="common_padding_24">24dp</dimen>
+    <dimen name="common_padding_16">16dp</dimen>
+    <dimen name="common_height_item_48">48dp</dimen>
+    <dimen name="common_height_actionbar_64">64dp</dimen>
+    <dimen name="common_height_button_48">48dp</dimen>
+
+    <dimen name="common_text_size_14">14sp</dimen>
+    <dimen name="common_text_size_15">15sp</dimen>
+    <dimen name="common_text_size_16">16sp</dimen>
+</resources>

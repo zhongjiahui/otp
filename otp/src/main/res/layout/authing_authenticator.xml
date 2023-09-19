@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/authenticator_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <ListView
+        android:id="@+id/authenticator_list_otp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@android:color/transparent"
+        android:listSelector="@android:color/transparent"
+        android:dividerHeight="16dp"
+        android:scrollbars="none"
+        android:divider="#00FFFFFF"/>
+
+    <LinearLayout
+        android:id="@+id/authenticator_no_data_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="170dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="94dp"
+            android:src="@drawable/ic_otp_default"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="@string/no_data"
+            android:textSize="14sp"
+            android:textColor="#86909C"/>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:minHeight="60dp"
+            android:layout_weight="1"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/authenticator_btn_scan_qr"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/background_button"
+            android:gravity="center"
+            android:textAllCaps="false"
+            android:text="@string/scan_the_qr"
+            android:textSize="16sp"
+            android:textColor="#FFFFFF"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/authenticator_btn_input_key"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="38dp"
+            android:visibility="visible"
+            android:textAllCaps="false"
+            android:text="@string/manual_key_input"
+            android:textSize="16sp"
+            android:textColor="@color/title_color"
+            android:background="@drawable/background_button_input"/>
+
+    </LinearLayout>
+
+</FrameLayout>

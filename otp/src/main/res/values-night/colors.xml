@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="item_background">#1D2129</color>
+    <color name="icon_back">#C9CDD4</color>
+    <color name="icon_delete">#1296db</color>
+    <color name="icon_edit">#1296db</color>
+    <color name="code_text">#1296db</color>
+    <color name="code_cunt_down_inner">#1D2129</color>
+    <color name="code_cunt_down_normal">#010101</color>
+    <color name="otp_white">#FF000000</color>
+    <color name="otp_background">#FF000000</color>
+    <color name="title_color">#FFFFFF</color>
+    <color name="button_bg">#272E3B</color>
+    <color name="edit_text_bg">#1D2129</color>
+
+</resources>

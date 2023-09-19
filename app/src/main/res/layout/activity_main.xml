@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+    <androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <LinearLayout
+            android:id="@+id/action_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_height_actionbar_64"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:paddingStart="@dimen/common_padding_24"
+            android:paddingEnd="@dimen/common_padding_16"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/common_text_size_16"
+                android:textStyle="bold"
+                android:text="@string/title_authenticator"
+                android:textColor="@color/common_actionbar_title"/>
+
+            <ImageView
+                android:id="@+id/img_add"
+                android:layout_width="40dp"
+                android:layout_height="38dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_add_circle"/>
+
+            <ImageView
+                android:id="@+id/img_more"
+                android:layout_width="40dp"
+                android:layout_height="38dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/ic_more"/>
+
+            <ImageView
+                android:id="@+id/img_edit_mode"
+                android:layout_width="40dp"
+                android:layout_height="38dp"
+                android:paddingStart="8dp"
+                android:paddingEnd="8dp"
+                android:scaleType="centerInside"
+                android:visibility="gone"
+                android:src="@drawable/ic_edit_mode"/>
+
+        </LinearLayout>
+
+
+        <androidx.fragment.app.FragmentContainerView
+            android:name="cn.authing.otp.ui.AuthenticatorFragment"
+            android:id="@+id/authenticator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/action_bar" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

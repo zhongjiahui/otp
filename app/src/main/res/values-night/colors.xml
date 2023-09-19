@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#FFFFFFFF</color>
+    <color name="white">#FF000000</color>
+    <color name="background">#FF000000</color>
+
+    <color name="common_actionbar_title">#FFFFFFFF</color>
+    <color name="text_black">#F7F8FA</color>
+    <color name="text_color_4E5969">#C9CDD4</color>
+    <color name="text_color_215AE5">#467AEA</color>
+
+    <color name="icon_color">#C9CDD4</color>
+    <color name="app_item_white">#1D2129</color>
+    <color name="pop_bg">#99010101</color>
+
+</resources>

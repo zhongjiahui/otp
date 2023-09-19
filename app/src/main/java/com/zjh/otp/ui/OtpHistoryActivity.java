@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.zjh.otp.R;
 import com.zjh.otp.base.BaseActivity;
-import com.zjh.otp.database.AuthingMobileDataBase;
+import com.zjh.otp.database.OtpDataBase;
 import com.zjh.otp.database.OtpHistoryEntity;
 import com.zjh.otp.databinding.ActivityOtpHistoryBinding;
 
@@ -36,7 +36,7 @@ public class OtpHistoryActivity extends BaseActivity {
 
     private void refreshView() {
         new Thread(() -> {
-            List<OtpHistoryEntity> otpHistoryEntityList = AuthingMobileDataBase
+            List<OtpHistoryEntity> otpHistoryEntityList = OtpDataBase
                     .getInstance(OtpHistoryActivity.this).otpHistoryDao().getHistoryList();
             runOnUiThread(() -> {
                 if (otpHistoryEntityList.isEmpty()) {

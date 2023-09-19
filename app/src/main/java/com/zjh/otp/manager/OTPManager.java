@@ -3,7 +3,7 @@ package com.zjh.otp.manager;
 import android.content.Context;
 
 import com.zjh.otp.R;
-import com.zjh.otp.database.AuthingMobileDataBase;
+import com.zjh.otp.database.OtpDataBase;
 import com.zjh.otp.database.OtpHistoryEntity;
 import com.zjh.otp.util.Utils;
 
@@ -47,7 +47,7 @@ public class OTPManager {
         OtpHistoryEntity entity = new OtpHistoryEntity();
         entity.setDescription(context.getString(R.string.import_account_history, sb.toString(), String.valueOf(accountList.size())));
         entity.setTime(Utils.getTimeString());
-        new Thread(() -> AuthingMobileDataBase.getInstance(context).otpHistoryDao().insertHistory(entity)).start();
+        new Thread(() -> OtpDataBase.getInstance(context).otpHistoryDao().insertHistory(entity)).start();
     }
 
     public void addDeleteOtpHistory(Context context, String account) {
@@ -58,7 +58,7 @@ public class OTPManager {
             OtpHistoryEntity entity = new OtpHistoryEntity();
             entity.setDescription(context.getString(R.string.delete_account_history, "「" + account + "」"));
             entity.setTime(Utils.getTimeString());
-            AuthingMobileDataBase.getInstance(context).otpHistoryDao().insertHistory(entity);
+            OtpDataBase.getInstance(context).otpHistoryDao().insertHistory(entity);
         }).start();
     }
 }

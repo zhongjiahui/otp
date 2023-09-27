@@ -1,4 +1,4 @@
-package cn.zjh.otp;
+package com.zjh.otp;
 
 public class TOTPEntity {
     public String scheme;

@@ -5,7 +5,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.zjh.otp.R;
+import com.zjh.otp.app.R;
 import com.zjh.otp.util.Utils;
 
 public class BaseActivity extends AppCompatActivity {

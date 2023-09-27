@@ -15,8 +15,8 @@ import androidx.core.app.ActivityCompat;
 
 import com.dommy.qrcode.util.Constant;
 import com.google.zxing.activity.CaptureActivity;
+import com.zjh.scanner.R;
 
-import cn.zjh.scanner.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     Button btnQrCode; // 扫码

@@ -7,10 +7,11 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.zjh.scanner.R;
+
 import java.util.Timer;
 import java.util.TimerTask;
 
-import cn.zjh.scanner.R;
 
 public class ToastUtils {
 

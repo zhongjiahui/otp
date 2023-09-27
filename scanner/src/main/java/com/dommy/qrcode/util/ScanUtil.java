@@ -25,7 +25,7 @@ public class ScanUtil {
         if (ContextCompat.checkSelfPermission(activity, Manifest.permission.CAMERA) != PackageManager.PERMISSION_GRANTED) {
             boolean hasRequest = SharedPreferencesUtils.getBoolean(activity, SharedPreferencesUtils.SP_HAS_REQUEST_CARME_PERMISSION);
             if (ActivityCompat.shouldShowRequestPermissionRationale(activity, Manifest.permission.CAMERA) && hasRequest) {
-                ToastUtils.show(activity, activity.getString(cn.zjh.scanner.R.string.camera_permission_tips));
+                ToastUtils.show(activity, activity.getString(com.zjh.scanner.R.string.camera_permission_tips));
                 return;
             }
             ActivityCompat.requestPermissions(activity, new String[]{Manifest.permission.CAMERA}, permissionRequestCode);

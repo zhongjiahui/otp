@@ -1,6 +1,6 @@
 package com.zjh.otp.bean;
 
-import cn.zjh.otp.TOTPEntity;
+import com.zjh.otp.TOTPEntity;
 
 public class OtpAccountBean {
 

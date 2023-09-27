@@ -1,4 +1,4 @@
-package cn.zjh.otp.ui;
+package com.zjh.otp.ui;
 
 import android.content.Context;
 import android.graphics.Color;
@@ -12,12 +12,12 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import cn.zjh.otp.wideget.CountDownListener;
-import cn.zjh.otp.R;
-import cn.zjh.otp.TOTPEntity;
-import cn.zjh.otp.TOTPGenerator;
-import cn.zjh.otp.wideget.CountDownPie;
-import cn.zjh.otp.wideget.CodeView;
+import com.zjh.otp.app.R;
+import com.zjh.otp.wideget.CountDownListener;
+import com.zjh.otp.TOTPEntity;
+import com.zjh.otp.TOTPGenerator;
+import com.zjh.otp.wideget.CountDownPie;
+import com.zjh.otp.wideget.CodeView;
 
 public class TOTPAdapter extends BaseAdapter implements CountDownListener {
 

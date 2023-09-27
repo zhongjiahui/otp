@@ -6,11 +6,11 @@ import android.view.View;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
-import com.zjh.otp.R;
+import com.zjh.otp.app.R;
+import com.zjh.otp.app.databinding.ActivityOtpHistoryBinding;
 import com.zjh.otp.base.BaseActivity;
 import com.zjh.otp.database.OtpDataBase;
 import com.zjh.otp.database.OtpHistoryEntity;
-import com.zjh.otp.databinding.ActivityOtpHistoryBinding;
 
 import java.util.Collections;
 import java.util.List;

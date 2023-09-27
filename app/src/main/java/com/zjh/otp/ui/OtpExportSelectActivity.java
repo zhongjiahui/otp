@@ -10,18 +10,18 @@ import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.LinearLayoutManager;
 
 import com.google.gson.Gson;
-import com.zjh.otp.R;
+import com.zjh.otp.app.R;
+import com.zjh.otp.app.databinding.ActivityOtpExportSelectBinding;
 import com.zjh.otp.base.BaseActivity;
 import com.zjh.otp.bean.OtpAccountBean;
-import com.zjh.otp.databinding.ActivityOtpExportSelectBinding;
 import com.zjh.otp.util.CommonConstant;
 import com.zjh.otp.util.PageRouter;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.zjh.otp.TOTP;
-import cn.zjh.otp.TOTPEntity;
+import com.zjh.otp.TOTP;
+import com.zjh.otp.TOTPEntity;
 
 public class OtpExportSelectActivity extends BaseActivity implements OtpSelectAdapter.OnItemCheckListener {
 

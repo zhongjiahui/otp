@@ -2,7 +2,7 @@ package com.zjh.otp.manager;
 
 import android.content.Context;
 
-import com.zjh.otp.R;
+import com.zjh.otp.app.R;
 import com.zjh.otp.database.OtpDataBase;
 import com.zjh.otp.database.OtpHistoryEntity;
 import com.zjh.otp.util.Utils;

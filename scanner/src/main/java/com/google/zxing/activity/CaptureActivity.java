@@ -45,12 +45,12 @@ import com.google.zxing.decoding.InactivityTimer;
 import com.google.zxing.decoding.RGBLuminanceSource;
 import com.google.zxing.qrcode.QRCodeReader;
 import com.google.zxing.view.ViewfinderView;
+import com.zjh.scanner.R;
 
 import java.io.IOException;
 import java.util.Hashtable;
 import java.util.Vector;
 
-import cn.zjh.scanner.R;
 
 
 /**

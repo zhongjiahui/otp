@@ -1,4 +1,4 @@
-package cn.zjh.otp;
+package com.zjh.otp;
 
 public final class Base32 {
     /* lookup table used to encode() groups of 5 bits of data */

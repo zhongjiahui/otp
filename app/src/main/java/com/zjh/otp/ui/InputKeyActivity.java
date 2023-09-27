@@ -1,4 +1,4 @@
-package cn.zjh.otp.ui;
+package com.zjh.otp.ui;
 
 import android.app.UiModeManager;
 import android.content.Context;
@@ -17,11 +17,12 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 
-import cn.zjh.otp.Base32;
-import cn.zjh.otp.R;
-import cn.zjh.otp.TOTP;
-import cn.zjh.otp.TOTPBindResult;
-import cn.zjh.otp.util.ToastUtils;
+import com.zjh.otp.app.R;
+import com.zjh.otp.util.ToastUtils;
+
+import com.zjh.otp.Base32;
+import com.zjh.otp.TOTP;
+import com.zjh.otp.TOTPBindResult;
 
 public class InputKeyActivity extends AppCompatActivity {
 

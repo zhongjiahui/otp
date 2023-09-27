@@ -25,4 +25,31 @@
     <string name="delete_account_history">删除了 %s</string>
     <string name="cancel">取消</string>
 
+    <string name="no_data">请添加一个组织或应用账户</string>
+    <string name="scan_the_qr">扫描二维码</string>
+    <string name="manual_key_input">手动输入账号</string>
+    <string name="token_detail">令牌详情</string>
+    <string name="save">保存</string>
+    <string name="account">账户名称</string>
+    <string name="application">应用名称</string>
+    <string name="digits">密钥位数</string>
+    <string name="interval">令牌间隔</string>
+    <string name="algorithm">加密算法</string>
+    <string name="issuer">颁发者</string>
+    <string name="sure_delete">是否删除账户？</string>
+    <string name="sure_delete_message">删除 %s 账户后，您将无法使用此设备验证您的身份。</string>
+    <string name="delete_account">删除账户</string>
+    <string name="account_name">账号名称</string>
+    <string name="input_account_name">请输入账号名称</string>
+    <string name="account_name_sample">示例：我的组织账号</string>
+    <string name="key">密钥</string>
+    <string name="input_key">请输入密钥</string>
+    <string name="key_tip">密钥由你的账号服务商提供，并非你的密码。</string>
+    <string name="key_invalid">无效的密钥</string>
+    <string name="key_invalid_length">密钥长度不对</string>
+    <string name="add">添加</string>
+    <string name="copy_success">复制成功</string>
+    <string name="account_ame_cannot_be_empty">账户名称不能为空</string>
+    <string name="application_name_cannot_be_empty">应用名称不能为空</string>
+
 </resources>

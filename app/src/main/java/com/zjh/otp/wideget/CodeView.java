@@ -1,4 +1,4 @@
-package cn.zjh.otp.wideget;
+package com.zjh.otp.wideget;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -10,7 +10,8 @@ import android.view.View;
 
 import androidx.annotation.Nullable;
 
-import cn.zjh.otp.R;
+import com.zjh.otp.app.R;
+
 
 public class CodeView extends View {
 

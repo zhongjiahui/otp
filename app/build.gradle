@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.zjh.otp'
+    namespace 'com.zjh.otp.app'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.zjh.otp"
+        applicationId "com.zjh.otp.app"
         minSdk 24
         targetSdk 34
         versionCode 1

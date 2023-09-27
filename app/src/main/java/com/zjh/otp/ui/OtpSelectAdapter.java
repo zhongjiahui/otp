@@ -9,13 +9,13 @@ import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.zjh.otp.R;
+import com.zjh.otp.app.R;
+import com.zjh.otp.app.databinding.LayoutOtpSelectItemBinding;
 import com.zjh.otp.bean.OtpAccountBean;
-import com.zjh.otp.databinding.LayoutOtpSelectItemBinding;
 
 import java.util.List;
 
-import cn.zjh.otp.TOTPEntity;
+import com.zjh.otp.TOTPEntity;
 
 public class OtpSelectAdapter extends RecyclerView.Adapter<OtpSelectAdapter.AccountHolder> {
 

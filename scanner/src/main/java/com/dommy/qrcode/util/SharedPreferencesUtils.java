@@ -5,7 +5,7 @@ import android.content.SharedPreferences;
 
 public class SharedPreferencesUtils {
 
-    private static final String SP_NAME = "authing_mobile";
+    private static final String SP_NAME = "mobile";
 
     public static final String SP_HAS_REQUEST_CARME_PERMISSION = "has_request_carme_permission";
     public static final String SP_HAS_REQUEST_PHONE_PERMISSION = "has_request_phone_permission";

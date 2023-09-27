@@ -1,4 +1,4 @@
-package cn.zjh.otp;
+package com.zjh.otp;
 
 import java.nio.ByteBuffer;
 

@@ -33,7 +33,7 @@ import com.google.zxing.view.ViewfinderResultPointCallback;
 
 import java.util.Vector;
 
-import cn.zjh.scanner.R;
+import com.zjh.scanner.R;
 
 
 /**

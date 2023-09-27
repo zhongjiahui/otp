@@ -1,4 +1,4 @@
-package cn.zjh.otp.ui;
+package com.zjh.otp.ui;
 
 import android.annotation.SuppressLint;
 import android.app.Dialog;
@@ -16,10 +16,11 @@ import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 
-import cn.zjh.otp.R;
-import cn.zjh.otp.TOTP;
-import cn.zjh.otp.TOTPEntity;
-import cn.zjh.otp.util.ToastUtils;
+import com.zjh.otp.app.R;
+import com.zjh.otp.util.ToastUtils;
+
+import com.zjh.otp.TOTP;
+import com.zjh.otp.TOTPEntity;
 
 
 public class AuthenticatorDetailDialog extends Dialog {

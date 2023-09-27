@@ -1,4 +1,4 @@
-package cn.zjh.otp.wideget;
+package com.zjh.otp.wideget;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -6,7 +6,8 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
-import cn.zjh.otp.R;
+import com.zjh.otp.app.R;
+
 
 public class CountDownPie extends View {
 

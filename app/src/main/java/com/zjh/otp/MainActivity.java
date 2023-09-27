@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
 
@@ -17,8 +18,8 @@ import androidx.fragment.app.FragmentTransaction;
 
 import com.dommy.qrcode.util.Constant;
 import com.dommy.qrcode.util.ScanUtil;
+import com.zjh.otp.app.databinding.ActivityMainBinding;
 import com.zjh.otp.base.BaseActivity;
-import com.zjh.otp.databinding.ActivityMainBinding;
 import com.zjh.otp.manager.OTPManager;
 import com.zjh.otp.util.CommonConstant;
 import com.zjh.otp.util.PageRouter;
@@ -28,11 +29,9 @@ import com.zjh.otp.util.Utils;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.zjh.otp.ui.AuthenticatorFragment;
-import cn.zjh.otp.TOTP;
-import cn.zjh.otp.TOTPBindResult;
-import cn.zjh.otp.TOTPEntity;
-import cn.zjh.otp.util.ToastUtils;
+import com.zjh.otp.app.R;
+import com.zjh.otp.ui.AuthenticatorFragment;
+import com.zjh.otp.util.ToastUtils;
 
 public class MainActivity extends BaseActivity {
 
@@ -48,6 +47,7 @@ public class MainActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         initBar();
         initFragment();

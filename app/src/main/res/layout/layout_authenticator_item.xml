@@ -14,7 +14,7 @@
         android:paddingStart="0dp"
         android:paddingEnd="8dp"
         android:gravity="center_vertical">
-        <cn.authing.otp.wideget.CodeView
+        <com.zjh.otp.wideget.CodeView
             android:id="@+id/otp_item_code"
             android:layout_width="0dp"
             android:layout_weight="1"
@@ -37,7 +37,7 @@
             android:visibility="gone"
             android:scaleType="centerInside"
             android:src="@drawable/ic_otp_delete"/>
-        <cn.authing.otp.wideget.CountDownPie
+        <com.zjh.otp.wideget.CountDownPie
             android:id="@+id/otp_item_countdown_pie"
             android:layout_width="15dp"
             android:layout_height="15dp"

@@ -1,4 +1,4 @@
-package cn.zjh.otp.util;
+package com.zjh.otp.util;
 
 import android.content.Context;
 import android.view.Gravity;
@@ -8,10 +8,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.zjh.otp.app.R;
+
 import java.util.Timer;
 import java.util.TimerTask;
 
-import cn.zjh.otp.R;
 
 public class ToastUtils {
 

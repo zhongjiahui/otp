@@ -1,4 +1,4 @@
-package cn.zjh.otp.ui;
+package com.zjh.otp.ui;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -28,10 +28,10 @@ import com.dommy.qrcode.util.ScanUtil;
 import java.lang.ref.WeakReference;
 import java.util.List;
 
-import cn.zjh.otp.R;
-import cn.zjh.otp.TOTP;
-import cn.zjh.otp.TOTPEntity;
-import cn.zjh.otp.util.ToastUtils;
+import com.zjh.otp.app.R;
+import com.zjh.otp.TOTP;
+import com.zjh.otp.TOTPEntity;
+import com.zjh.otp.util.ToastUtils;
 
 public class AuthenticatorFragment extends Fragment implements TOTPAdapter.onItemViewClickListener {
 

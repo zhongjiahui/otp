@@ -1,4 +1,4 @@
-package cn.zjh.otp;
+package com.zjh.otp;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -12,7 +12,7 @@ import java.util.List;
 public class DatabaseHelper extends SQLiteOpenHelper {
 
     private static final int DATABASE_VERSION = 1;
-    private static final String DATABASE_NAME = "authing";
+    private static final String DATABASE_NAME = "otp_data";
     private static final String TABLE_OTP = "otp";
     private static final String KEY_ID = "id";
     private static final String KEY_PATH = "path";

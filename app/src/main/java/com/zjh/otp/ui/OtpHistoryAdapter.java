@@ -9,10 +9,9 @@ import androidx.annotation.NonNull;
 import androidx.databinding.DataBindingUtil;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.zjh.otp.R;
+import com.zjh.otp.app.R;
+import com.zjh.otp.app.databinding.LayoutOtpHistoryItemBinding;
 import com.zjh.otp.database.OtpHistoryEntity;
-import com.zjh.otp.databinding.LayoutOtpHistoryItemBinding;
-
 import java.util.List;
 
 public class OtpHistoryAdapter extends RecyclerView.Adapter<OtpHistoryAdapter.HistoryHolder> {

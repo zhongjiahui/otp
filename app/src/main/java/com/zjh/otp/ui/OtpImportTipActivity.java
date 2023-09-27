@@ -14,9 +14,9 @@ import com.dommy.qrcode.util.Constant;
 import com.dommy.qrcode.util.ScanUtil;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.zjh.otp.R;
+import com.zjh.otp.app.R;
+import com.zjh.otp.app.databinding.ActivityOtpImportTipBinding;
 import com.zjh.otp.base.BaseActivity;
-import com.zjh.otp.databinding.ActivityOtpImportTipBinding;
 import com.zjh.otp.manager.OTPManager;
 import com.zjh.otp.util.CommonConstant;
 
@@ -24,9 +24,9 @@ import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.zjh.otp.TOTP;
-import cn.zjh.otp.TOTPEntity;
-import cn.zjh.otp.util.ToastUtils;
+import com.zjh.otp.TOTP;
+import com.zjh.otp.TOTPEntity;
+import com.zjh.otp.util.ToastUtils;
 
 public class OtpImportTipActivity extends BaseActivity {
 
@@ -58,7 +58,7 @@ public class OtpImportTipActivity extends BaseActivity {
                         CommonConstant.REQUEST_CODE_QR, Constant.PAGE_ADD_ACCOUNT, false, getString(R.string.scan_add_otp_tip));
             } else {
                 // 被禁止授权
-                ToastUtils.show(this, getString(cn.zjh.scanner.R.string.camera_permission_tips));
+                ToastUtils.show(this, getString(com.zjh.scanner.R.string.camera_permission_tips));
             }
         }
     }

@@ -6,9 +6,9 @@ import android.os.Bundle;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
 
-import com.zjh.otp.R;
+import com.zjh.otp.app.R;
+import com.zjh.otp.app.databinding.ActivityOtpExportTipBinding;
 import com.zjh.otp.base.BaseActivity;
-import com.zjh.otp.databinding.ActivityOtpExportTipBinding;
 import com.zjh.otp.util.CommonConstant;
 import com.zjh.otp.util.PageRouter;
 

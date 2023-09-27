@@ -8,9 +8,9 @@ import androidx.databinding.DataBindingUtil;
 
 import com.dommy.qrcode.util.BitmapUtil;
 import com.google.zxing.WriterException;
-import com.zjh.otp.R;
+import com.zjh.otp.app.R;
+import com.zjh.otp.app.databinding.ActivityOtpExportQrcodeBinding;
 import com.zjh.otp.base.BaseActivity;
-import com.zjh.otp.databinding.ActivityOtpExportQrcodeBinding;
 import com.zjh.otp.util.CommonConstant;
 import com.zjh.otp.util.Utils;
 

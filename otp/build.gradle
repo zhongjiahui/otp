@@ -13,7 +13,7 @@ afterEvaluate {
 
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.zjh.otp'
-                artifactId = 'zjh'
+                artifactId = 'otp'
                 version = '1.0'
             }
             // Creates a Maven publication called “debug”.
@@ -27,6 +27,13 @@ afterEvaluate {
 //            }
         }
     }
+}
+
+tasks.withType(Javadoc) {
+    failOnError false
+    options.addStringOption('Xdoclint:none', '-quiet')
+    options.addStringOption('encoding', 'UTF-8')
+    options.addStringOption('charSet', 'UTF-8')
 }
 
 android {

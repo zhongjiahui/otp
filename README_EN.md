@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The OTP SDK we currently provide supports TOTP (time-based one-time cryptography algorithm) for OTP authentication mode scenarios in multi-factor authentication (MFA). Through the SDK, you can quickly generate the OTP verification code, and provide the ability to add, delete, modify and check.
+The OTP SDK currently provide supports TOTP (time-based one-time cryptography algorithm) for OTP authentication mode scenarios in multi-factor authentication (MFA). Through the SDK, you can quickly generate the OTP verification code, and provide the ability to add, delete, modify and check.
 
 ## Data format
 

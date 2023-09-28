@@ -4,8 +4,8 @@ plugins {
 }
 
 afterEvaluate {
-    publishing {
-        publications {
+    publishing {// 发布配置
+        publications {// 发布的内容
             // Creates a Maven publication called "release".
             release(MavenPublication) {
                 // Applies the component for the release build variant.
@@ -25,6 +25,11 @@ afterEvaluate {
 //                artifactId = 'final-debug'
 //                version = '1.0'
 //            }
+        }
+        repositories {
+            maven {
+                url layout.buildDirectory.dir("maven-repo")
+            }
         }
     }
 }
@@ -61,7 +66,4 @@ android {
 
 dependencies {
 
-    implementation 'androidx.appcompat:appcompat:1.6.1'
-
-    //implementation project(':scanner')
 }

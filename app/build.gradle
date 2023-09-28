@@ -83,9 +83,9 @@ dependencies {
     // mavenLocal()
     //implementation 'com.zjh.otp:otp:1.0'
     // jitpack
-    //implementation 'com.github.zhongjiahui.Otp:otp:1.0'
-    //implementation 'com.github.zhongjiahui.Otp:otp:latest.release'
+    implementation 'com.github.zhongjiahui:otp:1.2'
+    //implementation 'com.github.zhongjiahui:otp:latest.release'
     // module
-    implementation project(':otp')
+    //implementation project(':otp')
     implementation project(':scanner')
 }
